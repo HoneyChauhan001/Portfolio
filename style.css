@@ -252,7 +252,7 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -378,9 +378,11 @@ nav .fa-solid{
 @media only screen and (max-width: 600px) {
     #header{
         background-image: url(); 
+        height: 88vh;
+        
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 70%;
         font-size: 16px;
     }
     .header-text h1{
@@ -434,6 +436,24 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
+    }
+    .layer{
+        font-size: 12px;
+    }
+    
+    .layer h3{
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .layer a{
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
     }
 }
 
