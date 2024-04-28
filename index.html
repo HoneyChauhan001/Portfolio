@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8047eceadd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo_portfolio_new_1.png" alt="logo" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact ">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I'm<br><span>Honey Chauhan</span><br>And I'm A Fullstack Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------ABOUT------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2024-04-27 at 12.51.31 AM.jpeg" alt="user image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a software developer specializing in ReactJS, Springboot and PostgreSQL, I bring a wealth of
+                        knowledge and experience to the table. I have a proven track record of developing robust and
+                        scalable applications, including Backend for Greenstitch using Springboot and PostgreSQL.
+                        Additionally, I created a website called Algocs.in, which helps users solve DSA problems.
+                        <br>I am deeply passionate about exploring new technologies in the app and web development
+                        space. I
+                        am always eager to learn and adapt to new challenges, which has been a key driver of my success
+                        as a developer.
+                        <br>If you're looking for a highly skilled and motivated software developer to join your team,
+                        look
+                        no further. Let's connect and explore how we can work together to create innovative solutions
+                        that drive results.
+                    </p>
+
+                    <div class="tag-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend Development</span><br>Building Java Springboot backend Applications</li>
+                            <li><span>Frontend Development</span><br>Frontend Development Using technologies like
+                                Javascript Frameworks, ReactJS, HTML and Tailwind CSS</li>
+                            <li><span>Data Base and System Designing</span><br>Building and Designing efficient System
+                                to store data ussing MySQL and PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="role">Full Stack Java Developer Intern at Greenstitch</span><br><span
+                                    class="time-span">Aug, 2023 - Dec, 2023</span><br>Java Springboot Backend
+                                development with PostgreSQL</li>
+                            <li><span class="role">Full Stack Intern at Phurti Logistics</span><br><span
+                                    class="time-span">Jan, 2023 - Jul, 2023</span><br>Web/App frontend development and
+                                Firebase integrations</li>
+                            <li><span class="role">Analyst at TransGanization</span><br><span class="time-span">Oct,
+                                    2021 - Dec, 2022</span><br>Bulding and Designing Sytems and Processes for Indian
+                                SMEs along with Technology Implementation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Oct, 2022 - Oct, 2023</span><br>DSA and Full stack Development Course from
+                                AccioJobs</li>
+                            <li><span>Jun, 2017 - Jul, 2021</span><br>B.Tech from National Institute of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------services------------------------- -->
+
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint deleniti distinctio aliquid eius.
+                        Itaque inventore reiciendis voluptate reprehenderit, sequi excepturi, libero aut animi tempore
+                        velit distinctio consequatur hic praesentium eveniet?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint deleniti distinctio aliquid eius.
+                        Itaque inventore reiciendis voluptate reprehenderit, sequi excepturi, libero aut animi tempore
+                        velit distinctio consequatur hic praesentium eveniet?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint deleniti distinctio aliquid eius.
+                        Itaque inventore reiciendis voluptate reprehenderit, sequi excepturi, libero aut animi tempore
+                        velit distinctio consequatur hic praesentium eveniet?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- --------------------------portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work 1">
+                    <div class="layer">
+                        <h3>GoShop - E-Commmerce App</h3>
+                        <p>Java Spring Boot E-Commerce Application, designed to simplify
+                            online shopping experiences. This application encompasses crucial features such as user
+                            authentication, product management, cart functionality, and order confirmation. Users can
+                            securely register and log in, browse products, add items to their cart, and seamlessly
+                            proceed to checkout. Leveraging <b>Java Spring Boot, Spring Security, and MySQL,</b> this
+                            project
+                            reflects my proficiency in backend development and my
+                            commitment to delivering user-friendly software solutions. Moving forward, I aim to further
+                            enhance the application by implementing features like order tracking and payment integration
+                            to optimize performance and elevate user experience.</p>
+                        <a href="https://github.com/HoneyChauhan001/GoShop-ecommerce" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work 1">
+                    <div class="layer">
+                        <h3>AlgoCS - Learning Platform</h3>
+                        <p> A learning application developed by a team of three using <b>JavaScript, React Native,
+                                Native
+                                Base, and
+                                Firebase.</b> This platform offers learners easy access to algorithms and code snippets,
+                            with
+                            data seamlessly retrieved from Firebase backend. Impressively, we achieved a 98% code reuse
+                            across Web, Android, and iOS versions. By leveraging React Native for frontend and Firebase
+                            for backend, along with Native Base for component usage, we created a robust solution for
+                            learners to improve their programming skills. This project underscores our collective
+                            expertise in frontend development, backend integration, and commitment to delivering
+                            accessible software solutions.</p>
+                        <a href="https://64383648ff4e6300a4fc189b--profound-froyo-0acbaf.netlify.app/"
+                            target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work 1">
+                    <div class="layer">
+                        <h3>InsightVerse - Blogging Site</h3>
+                        <p>A dynamic blogging site built with <b>JavaScript, ReactJS, Redux, and Appwrite backend.</b>
+                            Users can seamlessly sign up/login, post, and update blogs. Leveraging TinyMCE editor, we've
+                            crafted an intuitive interface for content creation. This project showcases my expertise in
+                            frontend development, Redux state management, and backend integration with Appwrite,
+                            reflecting my commitment to user-centric web applications.Moving forward, I aim to further
+                            enhance the application's UI/UX and adding more features to it</p>
+                        <a href="https://github.com/HoneyChauhan001/GoShop-ecommerce" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ----------------contact------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> honey.mec17@nituk.ac.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 8860862957</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/honeychauhan01/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/HoneyChauhan001" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-github"></i></a> -->
+                    </div>
+                    <a href="https://drive.google.com/file/d/1tf33wc-XLq1njcnxTjGnldeZVReARMNH/view?usp=sharing"
+                        target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Honey. Made with <i class="fa-solid fa-heart"></i> by
+                Honey Chauhan</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        let tabLinks = document.getElementsByClassName("tab-links");
+        let tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove("active-link")
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabName).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        let sideMenu = document.getElementById('side-menu');
+
+        function openMenu() {
+            sideMenu.style.right = '0';
+        }
+
+        function closeMenu() {
+            sideMenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz1FP0PdxalQRsEqEyvxLtwstM8KH55MLTzWvaSmyO3_Sby16otPteZFuBRxnGLd58/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
